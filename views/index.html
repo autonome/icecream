@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ice cream</title>
+    <meta name="description" content="icesight">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2F72x72.png?1492768665840" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body>
+    
+    <!--
+    <header>
+      <h1>
+        ice cream
+      </h1>
+    </header>
+    -->
+
+    <div class="container">
+      <div class="camera">
+        <button id="testPush">Send</button>
+      </div>
+      <div class="map">
+        <iframe frameborder="0" style="border:0" src="//www.google.com/maps/embed/v1/place?q=near+97210&key=AIzaSyAXaSWTtDAPGrhmyCiDYbpKCU06phu6riw">
+        </iframe>
+      </div>
+    </div>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXaSWTtDAPGrhmyCiDYbpKCU06phu6riw&callback=initMap">
+    </script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "ICE Cream",
+  "short_name": "icecream",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "ice cream truck sightings",
+  "icons": [{
+    "src": "https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2F48x48.png?1492768642537",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2F72x72.png?1492768665840",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2F96x96.png?1492768669417",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2Fapple-touch-icon-152x152.png?1492768644093",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2Fapple-touch-icon-180x180.png?1492768665249",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://cdn.glitch.com/90129062-6e08-437b-8795-3142e2fc928f%2F192x192.png?1492768648913",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "related_applications": [{
+    "platform": "web"
+  }],
+  "gcm_sender_id": "880159584823",
+  "gcm_user_visible_only": true
+}
